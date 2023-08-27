@@ -81,7 +81,7 @@ function TransactionEditForm() {
               type="text"
               name="source"
               value={transaction.source}
-              placeholder="Ex: Kevin Mitnick"
+              placeholder="Checking Acc, Savings Acc"
               onChange={handleTextChange}
             />
     

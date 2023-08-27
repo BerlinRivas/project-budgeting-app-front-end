@@ -150,7 +150,7 @@ body, html {
   margin-top: -30px;
 }
 
-/* Apply a basic reset to remove default margins and paddings */
+
 * {
   margin: 0;
   padding: 0;
@@ -237,4 +237,28 @@ input[type="submit"]:hover {
 .New-form {
   background-color: rgb(3, 151, 124);
   height: 5000px
+}
+
+.Show {
+  background-color: rgb(3, 151, 124);
+  height: 5000px
+}
+
+.transaction-detail {
+  text-align: center;
+}
+.detail-btn {
+  background-color: rgb(17, 204, 157);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 357px;
+  margin-left: 540px;
+  margin-top: 10px
+}
+
+.detail-btn:hover {
+  background-color: rgb(30, 159, 137);
 }
